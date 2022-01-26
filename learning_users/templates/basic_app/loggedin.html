@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% block title %}{{user.username}}{% endblock %}
+
+{% block body_block %}
+<div class="jumbotron">
+  <h1>Welcome {{user.username}} !</h1>
+</div>
+
+{% endblock %}
